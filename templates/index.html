@@ -1,0 +1,286 @@
+<!-- File: templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriGaze - Greenguard Insights</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f7f6;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.85);
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    .hero {
+        background: url('https://wallpaperaccess.com/full/1537564.jpg') no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        color: #354235;
+    }
+
+    .transbox {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 40px;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+        max-width: 700px;
+        width: 90%;
+    }
+
+    .transbox h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #17311f;
+    }
+
+    .transbox h5 {
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    .transbox p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+        color: #35384ade;
+    }
+
+    .btn-custom {
+        background: linear-gradient(135deg, #070908a1, #1e3724);
+        color: white;
+        padding: 12px 30px;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 30px;
+        border: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-custom:hover {
+        background: linear-gradient(135deg, #218838, #1e7e34);
+        transform: scale(1.05);
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    #about {
+        background: linear-gradient(to bottom right, #335166, #87c48f);
+        color: white;
+    }
+
+    #about h2 {
+        font-weight: 700;
+    }
+
+    #predict {
+        background-color: #ffffff;
+    }
+
+    #predict h2 {
+        font-weight: 700;
+        margin-bottom: 40px;
+        color: #343a40;
+    }
+
+    .form-control {
+        max-width: 600px;
+        margin: 0 auto 20px auto;
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid #ced4da;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .img-fluid {
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    #contact {
+        background-color: #2d3436;
+        color: #ffffff;
+    }
+
+    #contact input,
+    #contact textarea {
+        border-radius: 10px;
+        padding: 12px;
+        border: none;
+    }
+
+    .btn-outline-light {
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 2px solid #fff;
+        transition: all 0.3s ease;
+    }
+
+    .btn-outline-light:hover {
+        background-color: #ffffff;
+        color: #2d3436;
+    }
+
+    .social-icons a {
+        color: #ffffff;
+        margin: 0 10px;
+        font-size: 1.7rem;
+        transition: transform 0.2s;
+    }
+
+    .social-icons a:hover {
+        transform: scale(1.2);
+        color: #00e676;
+    }
+
+    footer {
+        background-color: #1c1c1c;
+        color: #ccc;
+        padding: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2rem;
+        }
+        .hero p {
+            font-size: 1rem;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">NUTRIGAZE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#predict">Predict</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <header class="hero" id="home">
+    <div class="transbox text-center">
+        <h5 class="text-uppercase"><strong>Welcome to <i>NutriGaze</i></strong></h5>
+        <h1 class="display-4">GREENGUARD INSIGHTS</h1>
+        <p>We are a team of innovative scientists and technologists dedicated to ensuring your produce is always fresh and healthy.</p>
+        <a href="#predict" class="btn btn-custom">Get Started</a>
+    </div>
+</header>
+
+<section id="about" class="text-center">
+        <div class="container">
+            <h2>About NutriGaze</h2>
+            <p class="lead">NutriGaze is revolutionizing the way we evaluate the quality and health of fruits and vegetables using state-of-the-art AI technology.</p>
+            <p>At NutriGaze, our mission is to empower stakeholders across the agricultural and food industries with fast, accurate, and accessible produce health diagnostics. By leveraging the power of deep learning and computer vision, our platform identifies diseases, spoilage, and nutrient deficiencies in real time — just by analyzing an image. This means no more guesswork, no more waste, and significantly higher confidence for farmers, vendors, and consumers alike.</p>
+            <p>We believe in creating a future where food quality is not a privilege, but a guarantee. Whether you're a small-scale farmer monitoring your crops, a distributor managing supply chains, or a consumer wanting the best for your family, NutriGaze provides tools that fit seamlessly into your daily workflow. Our team is dedicated to continuous innovation, ensuring our models stay accurate, fast, and easy to use.</p>
+            <p>By uniting agriculture and AI, we are building a more resilient and transparent food ecosystem — one image at a time.</p>
+        </div>
+    </section>
+
+    <section id="predict" class="text-center py-5">
+        <div class="container">
+            <h2 class="mb-4">Upload Image for Prediction</h2>
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <input type="file" name="pc_image" class="form-control" accept="image/*" onchange="loadFile(event)" required>
+                </div>
+                <img id="output" class="img-fluid mb-3" style="max-height:300px;" src="https://img.freepik.com/premium-photo/anime-cartoon-illustration-vegetable-with-green-vines-smile_921860-110921.jpg">
+                <br>
+                <button type="submit" class="btn btn-primary">Predict</button>
+            </form>
+
+            {% if prediction %}
+                <h4 class="mt-4">Prediction: <span class="text-success">{{ prediction }}</span></h4>
+                {% if uploaded_image %}
+                    <img src="{{ uploaded_image }}" alt="Uploaded" class="img-fluid mt-3" style="max-height:300px;">
+                {% endif %}
+            {% endif %}
+        </div>
+    </section>
+
+
+    <section id="contact" class="text-center">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="mb-4">Have questions or suggestions? We’d love to hear from you.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.3);">
+            <p><i class="bi bi-envelope-fill"></i> info@nutrigaze.com | <i class="bi bi-telephone-fill"></i> +1 234 567 890</p>
+            <p><i class="bi bi-geo-alt-fill"></i> 123 Green Street, AgroCity, Country</p>
+            <div class="social-icons mt-3">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-3 bg-dark text-light">
+        &copy; 2025 NutriGaze. All rights reserved.
+    </footer>
+
+    <script>
+        const loadFile = function(event) {
+            const output = document.getElementById('output');
+            output.src = URL.createObjectURL(event.target.files[0]);
+            output.onload = function () {
+                URL.revokeObjectURL(output.src);
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
