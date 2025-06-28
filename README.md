@@ -48,3 +48,19 @@ Install the required Python packages using:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## 💾 Saving & Loading the Model
+python
+Copy
+Edit
+model.save('nutrigaze_model.keras')
+
+---
+
+## Load later
+from tensorflow.keras.models import load_model
+model = load_model('nutrigaze_model.keras')
+
+---
