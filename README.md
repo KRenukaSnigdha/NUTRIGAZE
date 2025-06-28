@@ -29,10 +29,15 @@ NUTRIGAZE/
 ├── templates/
 
 ├── dataset/
+
 │ ├── train/
+
 │ └── test/
+
 ├── venv/
+
 ├── requirements.txt
+
 └── README.md
 
 ---
