@@ -17,11 +17,17 @@
 ## 🗂️ Directory Structure
 
 NUTRIGAZE/
+
 ├── app.py
+
 ├── model/
+
 ├── static/
+
 │ └── uploads/
+
 ├── templates/
+
 ├── dataset/
 │ ├── train/
 │ └── test/
