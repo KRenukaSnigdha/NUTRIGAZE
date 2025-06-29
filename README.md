@@ -42,6 +42,12 @@ NUTRIGAZE/
 
 ---
 
+## Dataset Link
+
+Kaggle Dataset - https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten
+
+---
+
 ## 📦 Requirements
 
 Install the required Python packages using:
