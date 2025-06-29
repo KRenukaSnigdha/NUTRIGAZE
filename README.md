@@ -74,6 +74,7 @@ model = load_model('nutrigaze_model.keras')
 ---
 
 ## 📈 Future Improvements
+
 Add GUI or web interface for image upload
 
 Support for nutritional image recognition
@@ -84,7 +85,14 @@ Deploy with Flask or Streamlit
 
 ---
 
+## Demonstration video
+
+www
+
+---
+
 ## 📜 License
+
 This project is licensed under the MIT License.
 
 ---
