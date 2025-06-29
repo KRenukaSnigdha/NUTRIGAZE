@@ -121,7 +121,7 @@ Deploy with Flask or Streamlit
 
 ## Demonstration video
 
-www
+https://www.youtube.com/watch?v=0SmpiuLlN6o
 
 ---
 
