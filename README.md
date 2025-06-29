@@ -127,8 +127,7 @@ https://www.youtube.com/watch?v=0SmpiuLlN6o
 
 ## Doccumentation
 
-[📘 Project Report NUTRIGAZE.pdf](https://github.com/user-attachments/files/20965897/Project.Report.NUTRIGAZE.pdf)
-
+[NUTRIGAZE.Project.Report..pdf](https://github.com/user-attachments/files/20968778/NUTRIGAZE.Project.Report.pdf)
 
 ---
 
