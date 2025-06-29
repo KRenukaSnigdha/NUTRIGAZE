@@ -77,6 +77,18 @@ model = load_model('nutrigaze_model.keras')
 
 ---
 
+## 📸 Application Screenshots
+
+### 🔹 Home Page
+
+![Uploading Screenshot 2025-06-28 105947.png…]()
+
+
+### 🔹 Prediction Result
+![Result Output](screenshots/result_output.png)
+
+---
+
 ## 📈 Future Improvements
 
 Add GUI or web interface for image upload
