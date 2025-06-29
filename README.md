@@ -81,7 +81,8 @@ model = load_model('nutrigaze_model.keras')
 
 ### 🔹 Home Page
 
-![Uploading Screenshot 2025-06-28 105947.png…]()
+![Screenshot 2025-06-28 105947](https://github.com/user-attachments/assets/0e9f5cb2-a813-4693-8802-f02ee6c03f63)
+
 
 
 ### 🔹 Prediction Result
