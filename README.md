@@ -14,6 +14,12 @@
 
 ---
 
+## Architecture
+
+![Screenshot 2025-06-28 105409](https://github.com/user-attachments/assets/518c006c-7c2c-4ca0-a433-25bca2050ad6)
+
+---
+
 ## 🗂️ Directory Structure
 
 NUTRIGAZE/
@@ -83,10 +89,21 @@ model = load_model('nutrigaze_model.keras')
 
 ![Screenshot 2025-06-28 105947](https://github.com/user-attachments/assets/0e9f5cb2-a813-4693-8802-f02ee6c03f63)
 
+![Screenshot 2025-06-28 110011](https://github.com/user-attachments/assets/69b6c06b-8653-4572-a21d-d48bbe0964ef)
 
+![Screenshot 2025-06-28 110034](https://github.com/user-attachments/assets/019e4ca1-af8c-4f8c-b31f-402f4519e4a8)
+
+![Screenshot 2025-06-28 110059](https://github.com/user-attachments/assets/2ebdd6c6-3bad-4011-8351-60d608e71785)
 
 ### 🔹 Prediction Result
-![Result Output](screenshots/result_output.png)
+
+![Screenshot 2025-06-28 114658](https://github.com/user-attachments/assets/e5da0e60-1987-477f-8517-156ca80de9da)
+
+![Screenshot 2025-06-28 115354](https://github.com/user-attachments/assets/df0f412e-e8c8-490d-9cb7-b9c2dce970f0)
+
+![Screenshot 2025-06-28 114559](https://github.com/user-attachments/assets/ec411ac1-47a9-4a85-a17a-23a7b0e3e872)
+
+![Screenshot 2025-06-28 115012](https://github.com/user-attachments/assets/601f67cc-4c9b-4d5e-bf05-3fde46699b36)
 
 ---
 
