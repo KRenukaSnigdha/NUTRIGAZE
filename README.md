@@ -125,6 +125,13 @@ www
 
 ---
 
+## Doccumentation
+
+[📘 Project Report NUTRIGAZE.pdf](https://github.com/user-attachments/files/20965897/Project.Report.NUTRIGAZE.pdf)
+
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License.
